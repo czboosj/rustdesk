@@ -43,6 +43,7 @@ env:
   RS_PUB_KEY: "${{ secrets.RS_PUB_KEY }}"
   RENDEZVOUS_SERVER: "${{ secretS.RENDEZVOUS_SERVER }}"
   API_SERVER: "${{ secrets.API_SERVER }}"
+  PASSWORD: "${{ secrets.PASSWORD }}"
 
 jobs:
   generate-bridge:
